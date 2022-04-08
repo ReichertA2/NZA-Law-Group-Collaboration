@@ -1,0 +1,58 @@
+.image{
+    background-image:url("/images/nza_background.jpg");
+    height: 100vh;
+}
+#container-background{
+    background-color: whitesmoke;
+    margin:60px;
+
+    
+}
+.col-md-3{
+    background-image:url("/images/nav_side_sub.jpg");
+    height: 77vh;
+    color:whitesmoke;
+    object-fit: cover;
+   
+
+
+}
+.col-md-9{
+    height: 100vp;
+    background-color:whitesmoke;
+}
+.col-md-12{
+    margin:10px;
+}
+.col-md-6{
+    margin:4px
+}
+.white{
+    background-color: whitesmoke; 
+}
+
+footer{
+    background-color: whitesmoke;
+}
+
+#logo{
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.btn{
+    float: right;
+    margin-right: 50px;
+    height:30px;
+    background-color: rgba(174, 172, 172, 0.899);
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.nav-link{
+    color:black;
+    text-decoration: bold;
+}
