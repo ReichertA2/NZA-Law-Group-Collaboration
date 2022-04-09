@@ -78,14 +78,13 @@ body {
 }
 
 .main_content {
-    min-height: 650px;
+    min-height: 660px;
     background-color:white;
 }
 
 
 .footer{
     background-color: white;
-
 }
 
 .container-fluid {
