@@ -1,58 +1,108 @@
-.image{
-    background-image:url("/images/nza_background.jpg");
-    height: 100vh;
-}
-#container-background{
-    background-color: whitesmoke;
-    margin:60px;
 
-    
+* {
+    box-sizing: border-box;
+
+
 }
-.col-md-3{
-    background-image:url("/images/nav_side_sub.jpg");
-    height: 77vh;
-    color:whitesmoke;
-    object-fit: cover;
+
+body {
+    margin: 0;
+}
+
+.background_image {
+
+    background-image: url(/images/nza_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 85%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 13%;
+    padding-right: 10%;
+    margin: 0px auto;
+
+
+}
+
+.header {
+    background: white;
+    width: 100%;
+    margin-top: 25px;
+}
+
+
+
+.nav_bar {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 0px auto;
+    border: solid;
+    border-bottom-color: black;
+    border-left: none;
+    border-right: none;
+    font-size: 15px;
+    margin-top: 0px;
+    font-weight: 500;
+    
+
+}
+
+.nav_bar ul {
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    margin-bottom: 10px;
+
+}
+
+
+.nav_bar li {
+
+    padding: 0px 30px;
+    border-right: 1px solid gray;
+    margin: 0.575rem 0px;
+    margin-bottom: .17px;
+}
+
+.nav_bar li:last-child {
+    border-right: none;
+    border-color: white;
+}
+
+
+.nav_bar a {
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.main_content {
+    min-height: 660px;
+    background-color:white;
+}
+
+
+.footer{
+    background-color: white;
+}
+
+.container-fluid {
+    font-size: 14px;
+    
+
+
+
    
 
 
-}
-.col-md-9{
-    height: 100vp;
-    background-color:whitesmoke;
-}
-.col-md-12{
-    margin:10px;
-}
-.col-md-6{
-    margin:4px
-}
-.white{
-    background-color: whitesmoke; 
-}
 
-footer{
-    background-color: whitesmoke;
-}
 
-#logo{
-    height: 50px;
-    margin-left: 100px;
-    margin-top: 30px;
-}
 
-.btn{
-    float: right;
-    margin-right: 50px;
-    height:30px;
-    background-color: rgba(174, 172, 172, 0.899);
-}
 
-ul li{
-    list-style-type: none;
-}
 
-.nav-link{
-    color:black;
-    text-decoration: bold;
-}
+
+
+
+
