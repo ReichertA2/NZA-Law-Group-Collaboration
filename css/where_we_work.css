@@ -80,16 +80,79 @@ body {
 .main_content {
     min-height: 660px;
     background-color:white;
+    
+}
+
+.image_sizing{
+    width: 400px;
+}
+
+.top_lorem{
+    font-size: 15px;
+    padding-left: 20px;
 }
 .col-md-3{
     background-color:rgb(105, 4, 4);
+    height: 350px;
+    
+    /* padding: 20px; */
 }
-.testing{
+
+.where_we_work_line{
+    border-bottom: 1px solid;
+    padding: 10px;
+    
+}
+
+
+
+.left_career ul{
+    margin: 0px;
+}
+
+.left_career li{
+    list-style: none;
+    
+    
+}
+/* .testing{
     background-color: white;
-}
+} */
 .move{
     margin-top:1px;
 }
+
+
+
+.first_states li{
+    list-style: none;
+    
+
+}
+
+/* .first_states {
+    padding-left: px;
+    
+
+} */
+
+
+
+.middle_states li{
+    list-style: none;
+
+}
+
+.third_states li{
+    list-style: none;
+
+}
+
+.fourth_international li{
+    list-style: none;
+} 
+
+
 
 /* .back-image{
     background-image:url("../images/nav_side_sub.jpg");
