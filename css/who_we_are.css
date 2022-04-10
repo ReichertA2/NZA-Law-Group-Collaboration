@@ -43,7 +43,7 @@ body {
     font-size: 15px;
     margin-top: 0px;
     font-weight: 500;
-    
+
 
 }
 
@@ -79,29 +79,76 @@ body {
 
 .main_content {
     min-height: 660px;
-    background-color:white;
-}
-
-.sidebackground{
-    background-image: url("../images/nav_side_sub.jpg");
-}
-
-.footer{
     background-color: white;
+    
+    
+}
+
+.sidebackground {
+    background-image: url("../images/nav_side_sub.jpg");
+    width: 23%;
+    padding:0px;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+.anyClass {
+    /* height: 370px; */
+    height: 400px;
+    
+
+    /* width: 250px; */
+    overflow-y: scroll;
+    /* overflow: auto; */
+    
+}
+
+.anyClass p {
+    width: 150px;
+}
+
+
+.newsfeed{
+    border-bottom: 2px solid white;
+    
+}
+
+.nav-item{
+    padding: 15px;
+    font-size:15px;
+
+}
+
+
+.bigshot_company{
+
+    font-size: 14px;
+}
+
+.bigshot_address{
+    font-size:10px;
+    
+    
+}
+
+.forest_image{
+    width: 97%;
+}
+
+.line{
+    padding-top: 1.2rem;
+}
+
+.footer {
+    background-color: white;
+    
 }
 
 .container-fluid {
     font-size: 14px;
-    
+
 }
-
-
-
-
-
-
-
-
-
-
 
