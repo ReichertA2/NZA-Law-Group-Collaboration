@@ -87,13 +87,30 @@ body {
     width: 400px;
 }
 
+.col-md-8{
+    margin-left: -30px;
+}
+
+.first_states{
+    margin-left: -80px;
+}
+
+.middle_states{
+    margin-left: -90px;
+}
+
+.ul{
+    margin-left: -30px;
+}
+
+
 .top_lorem{
     font-size: 15px;
     padding-left: 20px;
 }
 .col-md-3{
     background-color:rgb(105, 4, 4);
-    height: 330px;
+    height: 360px;
     
     /* padding: 20px; */
 }
