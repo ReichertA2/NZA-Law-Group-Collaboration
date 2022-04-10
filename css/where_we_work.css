@@ -81,10 +81,25 @@ body {
     min-height: 660px;
     background-color:white;
 }
+.col-md-3{
+    background-color:rgb(105, 4, 4);
+}
+.testing{
+    background-color: white;
+}
+.move{
+    margin-top:1px;
+}
 
-.back-image{
+/* .back-image{
     background-image:url("../images/nav_side_sub.jpg");
+    background-repeat: no-repeat;
     height:67vh;
+} */
+.row{
+    margin-left: 40px;
+    margin-top: 10px;
+    background-color: white;
 }
 
 .footer{
